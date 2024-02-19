@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SnakeMAUI.MainPage"
+             Title="Home"
+             BackgroundImageSource="main.jpg"
+             Shell.NavBarIsVisible="False">
+    <StackLayout Orientation="Vertical">
+        <Button Text="Start" 
+                Clicked="OnStartGame" 
+                WidthRequest = "300" 
+                HeightRequest = "50"
+                Margin="20"/>
+        <Button Text="Options" Clicked="OnOptions"
+                WidthRequest = "300" 
+                HeightRequest = "50"
+                Margin="20"/>
+        <Button Text="About" Clicked="OnAbout"
+                WidthRequest = "300" 
+                HeightRequest = "50"
+                Margin="20"/>
+        <Button Text="Exit" Clicked="OnExit"
+                WidthRequest = "300" 
+                HeightRequest = "50"
+                Margin="20"/>
+    </StackLayout>
+</ContentPage>
